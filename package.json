@@ -1,0 +1,26 @@
+{
+  "name": "fintech-template",
+  "version": "1.0.0",
+  "description": "Template for financial technology company",
+  "main": "server.js",
+  "author": "Horleryheancarh <oladipoolayinka7@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "dev": "nodemon server",
+    "db": "knex migrate:latest && knex seed:run",
+    "start": "node server"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "jsonwebtoken": "^8.5.1",
+    "knex": "^2.2.0",
+    "lodash": "^4.17.21",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.19",
+    "sqlite3": "^5.0.11"
+  }
+}
